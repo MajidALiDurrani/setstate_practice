@@ -7,6 +7,7 @@ class setstatework extends StatefulWidget {
   State<setstatework> createState() => _setstateworkState();
 }
 
+// colors change screen with self made button
 class _setstateworkState extends State<setstatework> {
   Color color = Color.fromARGB(255, 187, 122, 122);
   @override
@@ -38,7 +39,7 @@ class _setstateworkState extends State<setstatework> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(25),
                     color: Colors.black),
-                child: Center(
+                child: const Center(
                   child: Text(
                     "click me",
                     style: TextStyle(
